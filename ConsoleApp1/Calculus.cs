@@ -9,7 +9,7 @@ namespace ConsoleApp1
     class Calculus
     {
         public static double CalcularImpuesto(int precio) {
-            double impuesto = .10;
+            double impuesto = .16;
             double resultado = 0;
 
             resultado = (precio * impuesto) + precio;
